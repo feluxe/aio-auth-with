@@ -9,17 +9,17 @@ You can use the makefile in the project root to run this tool, e.g:
 Usage:
     builder [options] build wheel
     builder [options] push registry
-    builder [options] bump version
-    builder [options] bump git
+    builder [options] version
+    builder [options] git
     builder [options] bump
     builder -h | --help
     builder --version
 
 Command-Explanation:
-    build-wheel                 Build wheel...
-    push-registry               Push wheel to package registry.
-    bump version                Bump project version number interactively.
-    bump git                    Bump git state interactively.
+    build wheel                 Build wheel...
+    push registry               Push wheel to package registry.
+    version                     Bump project version number interactively.
+    git                         Bump git state interactively.
     bump                        Run all bump routines interactively.
 
 Options:

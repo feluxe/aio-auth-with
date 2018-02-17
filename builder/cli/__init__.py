@@ -26,10 +26,10 @@ def render() -> None:
     elif uinput['push'] and uinput['registry']:
         builder.push_registry()
 
-    elif uinput['bump'] and uinput['version']:
+    elif uinput['version']:
         builder.bump_version()
 
-    elif uinput['bump'] and uinput['git']:
+    elif uinput['git']:
         builder.bump_git()
 
     elif uinput['bump']:
