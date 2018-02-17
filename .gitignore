@@ -1,0 +1,25 @@
+### Misc. ###
+INFO.fmw.md
+.cache/
+
+### Python ###
+__pycache__/
+.env
+*.pyc
+venv-aio-auth-with/
+
+### Wheels ###
+build/
+dist/
+aio-auth-with.egg-info/
+
+### Intellij ###
+*.iml
+.idea/
+
+### Vim ###
+.swp
+
+### testing ###
+**/tmp/*
+

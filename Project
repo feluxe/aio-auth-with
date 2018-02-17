@@ -1,0 +1,25 @@
+"public_name": "aio-auth-with"
+"interal_name": "aio-auth-with"
+"version": "0.0.1"
+"license": "unlicensed"
+"author": "Felix Meyer-Wolters"
+"author_email": "felix@meyerwolters.de"
+"maintainer": "Felix Meyer-Wolters"
+"maintainer_email": "felix@meyerwolters.de"
+"url": "https://github.com/feluxe/aio-auth-with"
+"description": ""
+"keywords": ""
+"interpreter": "python3.6"
+"pypi":
+  "install_requires": ["aiohttp"]
+  "packages": ["aio-auth-with"]
+  "package_dir": {"aio-auth-with": "auth-with"}
+  "package_data": {}
+  "py_modules": []
+  "data_files": []
+  "classifiers": []
+  "platforms": ""
+  "entry_points": {"console_scripts": []
+, "gui_scripts": []
+}
+  "tests_require": ["buildlib", "wheel", "docopt"]
