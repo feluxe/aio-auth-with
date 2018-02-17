@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 from codecs import open
-from buildlib.utils.yaml import load_yaml
+from buildlib import yaml
 
 with open('README.md') as f:
     long_description = f.read()
 
-config = load_yaml('Project')
+config = yaml.loadfile('Project')
 
 setup(
     name=config['public_name'],
