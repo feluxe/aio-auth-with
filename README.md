@@ -2,4 +2,4 @@
 
 ## Description
 
-Authentication client library.
+Auth client library to handle different auth providers.
