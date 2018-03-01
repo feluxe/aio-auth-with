@@ -10,6 +10,7 @@
 "description": ""
 "keywords": ""
 "interpreter": "python3.6"
+"registry": "pypi"
 "pypi":
   "install_requires": ["aiohttp"]
   "packages": ["aio-auth-with"]
