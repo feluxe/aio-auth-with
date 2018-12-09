@@ -1,7 +1,6 @@
 ### Misc. ###
 INFO.fmw.md
 .cache/
-.gitsub
 
 ### Python ###
 __pycache__/
